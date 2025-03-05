@@ -1,0 +1,294 @@
+@font-face {
+  font-family: 'Exo';
+  src: url('../assets/fonts/Exo-Regular.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Exo-Bold';
+  src: url('../assets/fonts/Exo-Bold.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+:root {
+  --primary-color: #2b4db9;
+  --font-body: 'Exo', sans-serif;
+  --font-heading: 'Exo', sans-serif;
+}
+
+body {
+  font-family: var(--font-body);
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: var(--font-heading);
+}
+
+p {
+  font-family: var(--font-body);
+}
+
+a {
+  color: var(--primary-color);
+  text-decoration: none;
+}
+
+* {
+  font-family: 'Exo', 'Exo', sans-serif;
+}
+
+a:hover {
+  color: darken(var(--primary-color), 10%);
+}
+
+.mr-2 {
+  margin-right: 0.5rem;
+}
+
+.ml-2 {
+  margin-left: 0.5rem !important;
+}
+
+.pointer {
+  cursor: pointer;
+}
+
+.ui.table thead th {
+  background-color: #e0e1e2 !important;
+}
+
+.ui-alerts {
+  top: -10px !important;
+  right: -10px !important;
+}
+
+::placeholder {
+  color: #6c757d !important;
+  opacity: 1;
+  /* Firefox */
+  font-family: 'Exo', sans-serif;
+}
+
+::-ms-input-placeholder {
+  /* Edge 12 -18 */
+  color: #6c757d !important;
+  font-family: 'Exo', sans-serif;
+}
+
+/* Chrome, Safari, Edge, Opera */
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+.comment-text-area-popup {
+  /* width: 200px !important; */
+}
+
+body {
+  margin: 0;
+}
+
+/*
+* Theme Name: Resido - Real Estate HTML Template
+* Author: Themez Hub
+* Version: 1.0
+* Last Change: 17 Jan 2021
+  Author URI    : http://www.Themezhub.com/
+-------------------------------------------------------------------*/
+/*------------- List Of Table -----------
+# Fonts
+# Global Settings
+# Header Navigation Styles
+# Homes Banner
+# Property Style
+# How it Work
+# Contact Info
+# PopUp Modal
+# Agency & Agents Design
+# Blog Designs
+# General Features
+# Dashboard
+# Footer Start
+# Responsiveness Start
+# Bottom To top Scroll
+------------- List Of Table ----------*/
+
+/*------------------------------------
+	Preloader
+------------------------------------*/
+.dark #preloader {
+  background-color: #232323;
+}
+
+#preloader {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: #f7f7f7;
+  z-index: 999999;
+}
+
+.form-group {
+  margin-bottom: 15px;
+}
+
+.preloader {
+  width: 50px;
+  height: 50px;
+  display: inline-block;
+  padding: 0px;
+  text-align: left;
+  box-sizing: border-box;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  margin-left: -25px;
+  margin-top: -25px;
+}
+
+.preloader span {
+  position: absolute;
+  display: inline-block;
+  width: 50px;
+  height: 50px;
+  border-radius: 100%;
+  background: #00a94f;
+  -webkit-animation: preloader 1.3s linear infinite;
+  animation: preloader 1.3s linear infinite;
+}
+
+.preloader span:last-child {
+  animation-delay: -0.8s;
+  -webkit-animation-delay: -0.8s;
+}
+
+@keyframes preloader {
+  0% {
+    transform: scale(0, 0);
+    opacity: 0.5;
+  }
+
+  100% {
+    transform: scale(1, 1);
+    opacity: 0;
+  }
+}
+
+@-webkit-keyframes preloader {
+  0% {
+    -webkit-transform: scale(0, 0);
+    opacity: 0.5;
+  }
+
+  100% {
+    -webkit-transform: scale(1, 1);
+    opacity: 0;
+  }
+}
+
+form.dropzone.dz-clickable.primary-dropzone {
+  background: #f9fafc;
+  border: 1px solid #ebedf5;
+}
+
+i.req {
+  color: #e41515;
+}
+
+/*--- end of preloader ---*/
+/*------------------------------------------------------------
+GLobal Settings
+-------------------------------------------------------------*/
+* {
+  outline: none;
+}
+
+body {
+  background: #ffffff;
+  color: #4e5c79;
+  font-size: 16px;
+  font-family: var(--font-body);
+  margin: 0;
+  overflow-x: hidden !important;
+  font-weight: 400;
+}
+
+.modal-open {
+  overflow: hidden !important;
+}
+
+html {
+  position: relative;
+  min-height: 100%;
+  background: #ffffff;
+}
+
+p {
+  line-height: 1.8;
+}
+.country-list {
+  background: #0a2724 !important;
+  border-width: 1px !important;
+  border-style: solid !important;
+  color: white;
+  border-color: #23a455 !important;
+  border-radius: 10px !important;
+}
+.country-list {
+  background: #0a2724 !important;
+  border-width: 1px !important;
+  border-style: solid !important;
+  color: white;
+  border-color: #23a455 !important;
+  border-radius: 10px !important;
+}
+
+.country-list:hover,
+.active:hover {
+  border-color: #23a455 !important;
+  background: #0a2724 !important;
+}
+
+.country:hover {
+  background: #0a2724 !important;
+}
+
+.country,
+.highlight {
+  background: #0a2724 !important;
+}
+.text-center {
+  text-align: center !important;
+}
+.filter-box {
+  background: #0a2724 !important;
+  border-width: 1px !important;
+  border-style: solid !important;
+  color: white;
+  border-color: #23a455 !important;
+  .ant-select-item {
+    color: white;
+  }
+}
+
+.filter-box,
+.ant-select-item {
+  color: white !important;
+}
+
+.filter-box,
+.ant-select-item-option,
+.ant-select-item-option-content {
+  background: #0a2724 !important;
+}

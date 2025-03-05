@@ -1,0 +1,40 @@
+export const Images = {
+  NotFoundImage: require('./images/NotFound.jpg'),
+  DummyCover: require('./images/DummyCover.png'),
+  Cover: require('./images/cover.png'),
+  User: require('./images/user.png'),
+  CoverLayer: require('./svgs/cover-layer.svg')?.default,
+  FeatureBox: require('./svgs/feature-box.svg')?.default,
+  Gaming: require('./svgs/gaming.svg')?.default,
+  VideoPlaceHolder: require('./images/video-placeholder.png'),
+  Logo: require('./svgs/logo.svg')?.default,
+  SideBarCloseIcon: require('./svgs/sidebariconclose.svg')?.default,
+  SideBarOpenIcon: require('./svgs/sidebariconopen.svg')?.default,
+  HowItWorks: require('./svgs/how-it-works.svg')?.default,
+  Walk: require('./svgs/walk.svg')?.default,
+  Person: require('./svgs/person.svg')?.default,
+  ThreeUser: require('./svgs/threeUser.svg')?.default,
+  Hat: require('./svgs/hat.svg')?.default,
+  Certificate: require('./svgs/certificate.svg')?.default,
+  Bulb: require('./svgs/bulb.svg')?.default,
+  Globe: require('./svgs/globe.svg')?.default,
+  CaretLeft: require('./svgs/caretLeft.svg')?.default,
+  CaretRight: require('./svgs/caretRight.svg')?.default,
+  FB: require('./svgs/fb.svg')?.default,
+  LinkedIn: require('./svgs/linkedin.svg')?.default,
+
+  PlaceHolder: {
+    User1: require('./images/user.png'),
+    User2: require('./images/user-2.jpeg'),
+    User3: require('./images/user-3.jpeg'),
+    AdultFirstAid: require('./images/adult-first-aid.jpeg'),
+    ChildFirstAid: require('./images/child-first-aid.jpeg'),
+    ChildCPR: require('./images/child-cpr.jpeg'),
+    InfantCPR: require('./images/infant-cpr.jpeg'),
+    Certi: require('./images/certi.png'),
+  },
+}
+
+export const Videos = {
+  CPR: require('./video/cpr.mp4'),
+}
