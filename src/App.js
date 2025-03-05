@@ -27,7 +27,6 @@ import { ProcessingScreen } from 'screens/proccessing'
 import { AppLayout, AuthAppLayout } from 'layout'
 import { CourceDetailScreen } from 'screens/auth/cources'
 
-FirebaseService.init()
 
 function App() {
   const [theme] = useDarkMode()
