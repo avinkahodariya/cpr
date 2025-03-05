@@ -8,7 +8,6 @@ import {
 } from 'react-router-dom'
 import { PageUnderDevelopment, ScrollToTop } from 'components'
 import { ThemeProvider } from 'styled-components'
-import { FirebaseService } from 'utility'
 import 'antd/dist/reset.css' // For Ant Design v5
 import {
   HomeScreen,

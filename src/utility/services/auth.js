@@ -1,7 +1,6 @@
 import { BaseService } from './base'
 import { BrowserUtility } from '../browser-utility'
 import { APIPath, StorageConstant } from 'utility/constant'
-import { FirebaseService } from './firebase'
 
 class Auth {
   // async checkUserExists(email) {
@@ -92,7 +91,6 @@ class Auth {
   }
 
   logout() {
-    FirebaseService.logOut()
     BrowserUtility.remove(StorageConstant.token)
     BrowserUtility.remove(StorageConstant.IsAuthenticated)
     BrowserUtility.remove(StorageConstant.user)
